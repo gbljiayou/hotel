@@ -2,12 +2,6 @@ server:
   port: 8080
   servlet:
     context-path: "/ho-api"
-spring:
-  datasource:
-    driver-class-name: com.mysql.jdbc.Driver
-    username: saos_fib_rw
-    password: PRaY0s8QgaOl3NRX
-    url: jdbc:mysql://devdb-mysql-dev.chj.cloud:30111/saos_fib?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&useSSL=true
 mybatis:
   type-aliases-package: classpath*:cn.mafangui.hotel.entity
   mapper-locations: classpath*:mybatis/mapper/*.xml
